@@ -1,0 +1,183 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 200,
+    "height": 200
+  },
+  "durationMs": 1800,
+  "fps": 24,
+  "loop": false,
+  "emitters": [
+    {
+      "name": "body",
+      "shape": "disc",
+      "position": [
+        100.0,
+        100.0,
+        0.0
+      ],
+      "extent": {
+        "radius": 3.0,
+        "size": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 100,
+        "atMs": 0.0
+      },
+      "lifetimeMs": 950.0,
+      "lifetimeSpread": 237.0,
+      "speed": 170.0,
+      "speedSpread": 56.0,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "coneAngle": 180.0,
+      "forces": {},
+      "particle": {
+        "sizeCurve": {
+          "interp": "linear",
+          "from": 8.0,
+          "to": 0.0
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 0.9,
+          "to": 0.0
+        },
+        "colorGradient": [
+          {
+            "color": "#fff4ca",
+            "at": 0.0
+          },
+          {
+            "color": "#edac60",
+            "at": 0.3
+          },
+          {
+            "color": "#684d4c",
+            "at": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "flash",
+      "shape": "point",
+      "position": [
+        100.0,
+        100.0,
+        0.0
+      ],
+      "extent": {
+        "radius": 1.0,
+        "size": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 1,
+        "atMs": 0.0
+      },
+      "lifetimeMs": 130.0,
+      "lifetimeSpread": 0.0,
+      "speed": 0.0,
+      "speedSpread": 0.0,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "coneAngle": 0.0,
+      "forces": {},
+      "particle": {
+        "sizeCurve": {
+          "interp": "linear",
+          "from": 50.0,
+          "to": 0.0
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 1.0,
+          "to": 0.0
+        },
+        "colorGradient": [
+          {
+            "color": "#fff9d7",
+            "at": 0.0
+          },
+          {
+            "color": "#ffd08e",
+            "at": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "shockwave",
+      "shape": "disc",
+      "position": [
+        100.0,
+        100.0,
+        0.0
+      ],
+      "extent": {
+        "radius": 6.0,
+        "size": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 100,
+        "atMs": 0.0
+      },
+      "lifetimeMs": 450.0,
+      "lifetimeSpread": 0.0,
+      "speed": 210.0,
+      "speedSpread": 0.0,
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "coneAngle": 180.0,
+      "forces": {},
+      "particle": {
+        "sizeCurve": {
+          "interp": "linear",
+          "from": 3.0,
+          "to": 0.0
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 0.75,
+          "to": 0.0
+        },
+        "colorGradient": [
+          {
+            "color": "#fff2c3",
+            "at": 0.0
+          },
+          {
+            "color": "#e8aa77",
+            "at": 1.0
+          }
+        ]
+      }
+    }
+  ],
+  "forces": {},
+  "subEmitters": []
+}
